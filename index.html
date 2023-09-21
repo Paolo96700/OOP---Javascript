@@ -11,7 +11,7 @@
     <script>
 
         //Stampino 3D di una persona
-        function Persona(nome, cognome, eta, genere, interessi){
+        function Persona(nome, cognome, eta, genere, interessi) {
             this.nome = nome;
             this.cognome = cognome;
             this.eta = eta;
@@ -35,8 +35,22 @@
         persona1.saluta();
         persona2.saluta();
 
-        persona1.bio();
-        persona2.bio();
+        // persona1.bio();
+        // persona2.bio();
+
+        function Insegnante(nome, cognome, eta, genere, interessi, materia) {
+            Persona.call(this, nome , cognome, eta, genere, interessi);
+
+            this.materia = materia;
+            this.saluta = function(){
+                console.log (`Buongiorno sono ${this.nome} ${this.cognome}, insegnante di ${this.materia}`);
+            };
+        };
+
+        const insegnante = new Insegnante ('Anna', 'Blu', 32, 'Femmina', ['Netflix'], 'Storia');
+        
+        console.log(insegnante);
+        insegnante.saluta();
 
     </script>
 </body>
