@@ -18,9 +18,11 @@ function Persona(nome, cognome, eta, genere, interessi) {
 const persona1 = new Persona('Luca', 'Rossi', 23, 'Maschio', ['calcio', 'basket']);
 const persona2 = new Persona('Anna', 'Verdi', 20, 'Femmina', ['letteratura', 'masterchef', 'musica']);
 
+console.log('----------------------------------------------------------------');
 
 console.log('OGGETTI');
 
+console.log('----------------------------------------------------------------');
 console.log(persona1);
 console.log(persona2);
 
@@ -41,11 +43,12 @@ function Insegnante(nome, cognome, eta, genere, interessi, materia) {
 };
 
 
-console.log('----------------------------------------------------------------');
+
 // Istanza Insegnanti
 const insegnante1 = new Insegnante ('Anna', 'Blu', 32, 'Femmina', ['Netflix'], 'Storia');
 const insegnante2 = new Insegnante ('Marina', 'Bianco', 32, 'Femmina', ['Netflix', 'Disney Plus', 'Carte', 'Passeggiate'], 'Matematica');
 
+console.log('----------------------------------------------------------------');
 console.log(insegnante1);
 console.log(insegnante2);
 

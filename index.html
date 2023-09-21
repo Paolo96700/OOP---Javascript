@@ -15,5 +15,34 @@
     </script>
     <script src="oggetti.js"></script>
     <script src="classi.js"></script>
+
+
+    <script>
+        //   <!-- Importazione con sintassi classica -->
+
+        //Percorso al file - richiesta (URL viene messo poichè potrebbe essere online e non locale)
+        let requestURL = './classi.json';
+
+        //richiesta di tipologia [XMLHttpRequest] - nuovo oggetto
+        let request = new XMLHttpRequest();
+
+        //Apriamo la richiesta - con metodo GET
+        request.open('GET', requestURL);
+
+        //Settiamo il tipo di risposta - essendo in questo caso un file .json
+        request.responseType = 'json';
+
+        //Richiesta risposta
+        request.send();
+
+        //una volta caricato attivi questa funzione
+        request.onload = function(){
+            const classi = request.response;
+            console.log('----------------------------------------------------------------');
+            console.log('ARRAY CLASSI')
+            console.log(classi);
+        }
+
+    </script>
 </body>
 </html>

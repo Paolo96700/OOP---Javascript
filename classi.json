@@ -1,0 +1,83 @@
+[
+    {
+        "nome": "2A",
+        "scuola": "Scuola Elementare Miao",
+        "insegnanti": [
+            {
+                "nome": "Giovanni",
+                "cognome": "Rossi",
+                "materiaInsegnante": ["Matematica", "Italiano"]
+            },
+            {
+                "nome": "Anna",
+                "cognome": "Verdi",
+                "materiaInsegnante": ["Storia dell'Arte", "Scienze"]
+            }
+        ],
+        "alunni":[
+            {
+                "nome": "Marco",
+                "cognome": "Rossi"
+            },
+            {
+                "nome": "Laura",
+                "cognome": "Bianchi"
+            },
+            {
+                "nome": "Simone",
+                "cognome": "Verdi"
+            },
+            {
+                "nome": "Francesca",
+                "cognome": "Neri"
+            }
+    
+        ],
+        "orari": {
+            "mattina": ["Matematica", "Italiano"],
+            "pomeriggio": ["Scienze", "Arte"]
+        }
+    
+    },
+    {
+        "nome": "4A",
+        "scuola": "Scuola Elementare Miao",
+        "insegnanti": [
+            {
+                "nome": "Annamaria",
+                "cognome": "Estern",
+                "materiaInsegnante": ["Algebra", "Geometria"]
+            },
+            {
+                "nome": "Ludovica",
+                "cognome": "Green",
+                "materiaInsegnante": ["Storia", "Antologia", "Geografia"]
+            }
+        ],
+        "alunni":[
+            {
+                "nome": "Pasquale",
+                "cognome": "Querty"
+            },
+            {
+                "nome": "Edoardo",
+                "cognome": "Wuerty"
+            },
+            {
+                "nome": "Salad",
+                "cognome": "What"
+            },
+            {
+                "nome": "Ringo",
+                "cognome": "Star"
+            }
+    
+        ],
+        "orari": {
+            "mattina": ["Algebra", "Storia"],
+            "pomeriggio": ["Geometria", "Antologia"]
+        }
+    
+    }
+]
+

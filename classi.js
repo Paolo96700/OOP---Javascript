@@ -48,10 +48,12 @@ class Teacher extends Person {
 const teacher = new Teacher('Paola', 'Rossi', 45, 'Femmina', ['Camminare', 'Correre'], 'Italiano');
 
 console.log('----------------------------------------------------------------');
+
 console.log('CLASSI');
+
+console.log('----------------------------------------------------------------');
+
 console.log(teacher);
-
-
 
 //Azioni dell'insegnante
 // teacher.resumeStudent('Paolo');
